@@ -28,7 +28,7 @@ timeseries_riboseq
   * `gtfToGenePred`, `genePredToBed` (can be get from [here](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/))
   * `ubu` (can be get from [here](https://github.com/mozack/ubu))
   * `empirical-JTK_CYCLE` (slightly modified version from original [one](https://github.com/alanlhutchison/empirical-JTK_CYCLE-with-asymmetry) can be get from [here](https://github.com/t-arae/empirical-JTK_CYCLE-with-asymmetry))
-- Download the miscellaneous files from [Here](https://github.com/tarae/timeseries_riboseq), decompress and put them to the appropriate directory.
+- Download the miscellaneous files from [Here](https://github.com/t-arae/timeseries_riboseq/releases/tag/misc_v1.0.0), decompress and put them to the appropriate directory.
 - Prepare an Julia v1.9 environment for running the Julia script.
 - Prepare an R v4.2.1 environment for running R scripts.
     * To easily restore the R analysis environment, this repository includes the `renv.lock` file.
