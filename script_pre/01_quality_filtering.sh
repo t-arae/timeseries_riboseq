@@ -12,7 +12,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt0_1_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt0_1_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt0_1_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt0_1_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt0_1_ribo_fastp.html
@@ -27,7 +27,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt0_2_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt0_2_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt0_2_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt0_2_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt0_2_ribo_fastp.html
@@ -42,7 +42,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt3_1_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt3_1_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt3_1_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt3_1_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt3_1_ribo_fastp.html
@@ -57,7 +57,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt3_2_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt3_2_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt3_2_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt3_2_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt3_2_ribo_fastp.html
@@ -72,7 +72,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt6_1_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt6_1_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt6_1_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt6_1_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt6_1_ribo_fastp.html
@@ -87,7 +87,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt6_2_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt6_2_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt6_2_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt6_2_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt6_2_ribo_fastp.html
@@ -102,7 +102,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt12_1_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt12_1_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt12_1_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt12_1_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt12_1_ribo_fastp.html
@@ -117,7 +117,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt12_2_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt12_2_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt12_2_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt12_2_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt12_2_ribo_fastp.html
@@ -132,7 +132,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt18_1_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt18_1_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt18_1_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt18_1_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt18_1_ribo_fastp.html
@@ -147,7 +147,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt18_2_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt18_2_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt18_2_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt18_2_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt18_2_ribo_fastp.html
@@ -162,7 +162,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt21_1_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt21_1_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt21_1_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt21_1_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt21_1_ribo_fastp.html
@@ -177,7 +177,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt21_2_ribo.fastq.gz \
+  --in1 data_source/fastq_dra/zt21_2_ribo.fastq.gz \
   --out1 data_preproc/fastq_qf/zt21_2_ribo.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt21_2_ribo_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt21_2_ribo_fastp.html
@@ -192,7 +192,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt0_1_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt0_1_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt0_1_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt0_1_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt0_1_rna_fastp.html
@@ -207,7 +207,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt0_2_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt0_2_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt0_2_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt0_2_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt0_2_rna_fastp.html
@@ -222,7 +222,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt3_1_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt3_1_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt3_1_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt3_1_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt3_1_rna_fastp.html
@@ -237,7 +237,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt3_2_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt3_2_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt3_2_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt3_2_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt3_2_rna_fastp.html
@@ -252,7 +252,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt6_1_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt6_1_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt6_1_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt6_1_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt6_1_rna_fastp.html
@@ -267,7 +267,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt6_2_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt6_2_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt6_2_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt6_2_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt6_2_rna_fastp.html
@@ -282,7 +282,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt12_1_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt12_1_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt12_1_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt12_1_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt12_1_rna_fastp.html
@@ -297,7 +297,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt12_2_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt12_2_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt12_2_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt12_2_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt12_2_rna_fastp.html
@@ -312,7 +312,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt18_1_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt18_1_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt18_1_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt18_1_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt18_1_rna_fastp.html
@@ -327,7 +327,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt18_2_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt18_2_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt18_2_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt18_2_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt18_2_rna_fastp.html
@@ -342,7 +342,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt21_1_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt21_1_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt21_1_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt21_1_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt21_1_rna_fastp.html
@@ -357,7 +357,7 @@ fastp \
   --disable_adapter_trimming \
   --disable_trim_poly_g \
   --thread 8 \
-  --in1 data_preproc/fastq_cat/zt21_2_rna.fastq.gz \
+  --in1 data_source/fastq_dra/zt21_2_rna.fastq.gz \
   --out1 data_preproc/fastq_qf/zt21_2_rna.fastq.gz \
   --failed_out data_preproc/fastq_qf/zt21_2_rna_fail.fastq.gz
 mv fastp.html data_preproc/fastq_qf/zt21_2_rna_fastp.html
