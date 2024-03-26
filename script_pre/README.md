@@ -37,11 +37,14 @@ To run the example scripts, you have to prepare the appropriate runtime environm
 - `17_2_readcount_uorf.sh` Read counting of P-site reads mapped to the uORFs of each gene.
 - `17_3_merge_readcount.pdf` (**PDF Report**) Merge read-counts data into one.
 
-- `18_1_ejtk_w_filtering.pdf` (**PDF Report**) Prepare data for the analysis of empirical-JTK_CYCLE.
-- `18_2_ejtk_rna.sh` empirical-JTK_CYCLE analysis for RNA-seq reads.
-- `18_3_ejtk_morf.sh` empirical-JTK_CYCLE analysis for mORF mapped P-site reads.
-- `18_4_ejtk_uorf.sh` empirical-JTK_CYCLE analysis for P-site reads mapped to the uORFs of each gene.
+- `18_1_ejtk_w_filtering.pdf` (**PDF Report**) Prepare data for the analysis of `empirical-JTK_CYCLE`.
+- `18_2_ejtk_rna.sh` `empirical-JTK_CYCLE` analysis for RNA-seq reads.
+- `18_3_ejtk_morf.sh` `empirical-JTK_CYCLE` analysis for mORF mapped P-site reads.
+- `18_4_ejtk_uorf.sh` `empirical-JTK_CYCLE` analysis for P-site reads mapped to the uORFs of each gene.
 
 - `19_1_deseq2_uorf.pdf` (**PDF Report**) Differential translational activity analysis with Ribo-seq data (for uORF).
 - `19_2_deseq2_te.pdf` (**PDF Report**) Differential translational efficiency analysis (for mORF).
 - `19_3_deseq2_te_morf_uorf.pdf` (**PDF Report**) Differential translational efficiency analysis (for uORF).
+
+- `99_create_summary_list.pdf` (**PDF Report**) Merge all data into one CSV file.
+- `99_run_fastqc.sh` Run `FastQC` for pre-processed data.
