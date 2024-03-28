@@ -46,5 +46,7 @@ To run the example scripts, you have to prepare the appropriate runtime environm
 - `19_2_deseq2_te.pdf` (**PDF Report**) Differential translational efficiency analysis (for mORF).
 - `19_3_deseq2_te_morf_uorf.pdf` (**PDF Report**) Differential translational efficiency analysis (for uORF).
 
+- `20_create_psite_coverage.sh` Make P-site reads coverage files using `deeptools bamCoverage`.
+
 - `99_create_summary_list.pdf` (**PDF Report**) Merge all data into one CSV file.
 - `99_run_fastqc.sh` Run `FastQC` for pre-processed data.
